@@ -6,7 +6,6 @@ import Singup from './Pages/Singup';
 import Cliente from './Home/Cliente';
 import Cotacao from './Home/Cotacao';
 import Fornecedor from './Home/Fornecedor';
-import MainLayout from './Components/MainLayout';
 
 const AppRoutes = () => {
   return (
@@ -17,7 +16,7 @@ const AppRoutes = () => {
         <Route path="/cliente" element={<Cliente />} />
         <Route path="/cotacao" element={<Cotacao />} />
         <Route path="/fornecedor" element={<Fornecedor />} />
-        <Route path="/mainlayout" element={<MainLayout />} />
+     
       </Routes>
     </Router>
   );
